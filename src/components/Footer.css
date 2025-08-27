@@ -1,3 +1,7 @@
 .footer{
     background-color: red;
+    padding-bottom: 1px;
+}
+.product_footer li{
+list-style: none;
 }
