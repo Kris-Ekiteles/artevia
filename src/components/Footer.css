@@ -1,6 +1,9 @@
 .footer{
     background-color: red;
     padding-bottom: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .product_footer li{
 list-style: none;
