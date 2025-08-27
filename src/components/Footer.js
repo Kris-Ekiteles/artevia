@@ -11,6 +11,9 @@ const Footer = () => {
   <li>paintings</li>
 </ul>
        </div>
+       <div className='bottom'>
+        <p>&copy; 2025 artevia curated with passion, inspired by art</p>
+       </div>
       
     </div>
   )
