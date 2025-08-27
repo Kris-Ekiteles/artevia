@@ -20,6 +20,15 @@ const Footer = () => {
         <FaTiktok />
         <FaInstagram />
       </div>
+      <div className="shop">
+        <ul>
+          <li>Collection</li>
+          <li>New Arrivals</li>
+          <li>Limited Edition</li>
+          {/* link for a new page for Faqs */}
+          <li>FAQ </li>
+        </ul>
+      </div>
       <div className="bottom">
         <p>&copy; 2025 artevia curated with passion, inspired by art</p>
       </div>
