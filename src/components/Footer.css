@@ -5,6 +5,14 @@
     bottom: 0;
     width: 100%;
 }
+.product_footer h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.product_footer ul{
+    margin-top: 0;
+}
 .product_footer li{
 list-style: none;
 }
