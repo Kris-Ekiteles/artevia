@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Link, Route, Routes } from "react-router-dom";
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Routes>
         <Route path="/about" element={<About />}/>
       </Routes>
-      <h3>hello about</h3>
-  
+      {/* footer section component*/}
+      <Footer />  
   </div>
   );
 }
