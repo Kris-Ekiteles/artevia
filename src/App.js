@@ -9,16 +9,17 @@ function App() {
   return (
     <div className="App">
       <nav>
+        <Link to="/about">About</Link>
         <Link to="/logIn/signUp">LogIn/SignUp</Link>
       </nav>
-      
+
       <Routes>
-        <Route path="/logIn/signUp" element={<Authorise />}/>
-        
+        <Route path="/logIn/signUp" element={<Authorise />} />
+        <Route path="/About" element={<About/>} />
       </Routes>
       {/* footer section component*/}
-      <Footer />  
-  </div>
+      <Footer />
+    </div>
   );
 }
 
