@@ -1,12 +1,21 @@
 import React from 'react'
 import './Footer.css'
 import { FaFacebook, FaWhatsapp, FaTiktok, FaInstagram } from "react-icons/fa";
+import { useLocation } from 'react-router-dom';
 // will not be displayed on screen size under 600px 
 const Footer = () => {
+  const location = useLocation();
+  //where not to display
+  const hideFooterpaths = ["/logIn/signUp"];
+
+  if (hideFooterpaths.includes(location.pathname)){
+    return null; //dont render footer to this paths
+  }
   return (
     <div className="footer">
       <div className="product_footer">
         <h4>our product</h4>
+        {/* should be links later */}
         <ul>
           <li>sculptures</li>
           <li>Drawings</li>
