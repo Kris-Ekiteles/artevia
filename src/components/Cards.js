@@ -1,16 +1,20 @@
 import React from 'react'
 import "./Cards.css"
-import nature from "../Assets/abstract-nature-painted.jpg";
 
-const Cards = () => {
+
+const Cards = (props) => {
   return (
+    
     <div className="card">
-      <img src={nature}/>
-      <h3>first pic</h3>
-      <p>this is the description</p>
-      <p>this is price </p>
-      <button>add</button>
+     
+      {/* for props */}
+      <img src={props.img} />
+      <h3>{props.name}</h3>
+      <p>{props.description}</p>
+      <p>{props.price} </p>
+      <button>{props.button}</button>
     </div>
+    
   );
 }
 
