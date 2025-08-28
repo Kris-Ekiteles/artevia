@@ -4,6 +4,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import About from './components/About';
 import Authorise from './components/Authorise';
 import Footer from './components/Footer';
+import Cards from './components/Cards';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/logIn/signUp" element={<Authorise />} />
         <Route path="/About" element={<About/>} />
       </Routes>
+      <Cards />     
       {/* footer section component*/}
       <Footer />
     </div>
