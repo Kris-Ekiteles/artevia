@@ -5,6 +5,7 @@ import About from './components/About';
 import Authorise from './components/Authorise';
 import Footer from './components/Footer';
 import Cards from './components/Cards';
+import nature from "./Assets/abstract-nature-painted.jpg";
 
 function App() {
   return (
@@ -16,9 +17,23 @@ function App() {
 
       <Routes>
         <Route path="/logIn/signUp" element={<Authorise />} />
-        <Route path="/About" element={<About/>} />
+        <Route path="/About" element={<About />} />
       </Routes>
-      <Cards />     
+      
+      <Cards
+        img={nature}
+        name="nature"
+        description="this is the nature painting"
+        price="50 k"
+        button="order"
+      />
+      <Cards
+        img={nature}
+        name="nature"
+        description="this is the nature painting"
+        price="50 k"
+        button="order"
+      />
       {/* footer section component*/}
       <Footer />
     </div>
