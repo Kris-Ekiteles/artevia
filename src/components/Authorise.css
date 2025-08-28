@@ -23,9 +23,25 @@ form label{
     position: relative;
     right: 10px;
 }
-form button{
-    margin-top: 15px;
+.submit-class{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
 }
+.submit{
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    border-radius: 7px;
+    height: 40px;
+    align-content: center;
+    width: 80px;
+    cursor: pointer;
+}
+.submit :hover{
+    background-color: #2e2e2e;
+    color: #d4af37;
+}
+
 @media(max-width: 600px){
 .footer{
     display: none;
