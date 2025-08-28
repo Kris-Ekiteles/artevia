@@ -23,9 +23,9 @@ function App() {
 <div className='painting'>
       <Cards
         // img={nature}
-        name="nature"
+        name="painting"
         description="this is the nature painting"
-        price="50 k"
+        price="100 k"
         button="order"
       />
       <Cards
