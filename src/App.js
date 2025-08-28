@@ -5,7 +5,7 @@ import About from './components/About';
 import Authorise from './components/Authorise';
 import Footer from './components/Footer';
 import Cards from './components/Cards';
-import nature from "./assests/abstract-nature-painted.jpg"
+// import nature from "./assests/abstract-nature-painted.jpg"
 
 function App() {
   
@@ -22,14 +22,14 @@ function App() {
       </Routes>
 <div className='painting'>
       <Cards
-        img={nature}
+        // img={nature}
         name="nature"
         description="this is the nature painting"
         price="50 k"
         button="order"
       />
       <Cards
-        img={nature}
+        // img={nature}
         name="nature"
         description="this is the nature painting"
         price="50 k"
