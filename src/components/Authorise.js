@@ -5,6 +5,7 @@ const Authorise = () => {
   return (
     <div className="login">
       <form method="Post">
+        <h3>Log In</h3>
         <label>Email</label>
         <input type="email" placeholder="example name@gmail.com" required />
         <label>password</label>
