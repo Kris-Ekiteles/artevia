@@ -8,6 +8,7 @@ import Cards from './components/Cards';
 import nature from "./Assets/abstract-nature-painted.jpg";
 
 function App() {
+  
   return (
     <div className="App">
       <nav>
@@ -19,7 +20,7 @@ function App() {
         <Route path="/logIn/signUp" element={<Authorise />} />
         <Route path="/About" element={<About />} />
       </Routes>
-      
+<div className='painting'>
       <Cards
         img={nature}
         name="nature"
@@ -34,6 +35,7 @@ function App() {
         price="50 k"
         button="order"
       />
+      </div>
       {/* footer section component*/}
       <Footer />
     </div>
