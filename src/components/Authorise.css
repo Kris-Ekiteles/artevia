@@ -27,3 +27,12 @@ form label{
 form button{
     margin-top: 15px;
 }
+.login footer{
+    display: none;
+}
+.footer{
+    display: none;
+}
+@media(max-width: 600px){
+
+}
