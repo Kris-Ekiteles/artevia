@@ -16,3 +16,8 @@
 .product_footer li{
 list-style: none;
 }
+@media(max-width:600px){
+    .footer{
+        display: none;
+    }
+}
