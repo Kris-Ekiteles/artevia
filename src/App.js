@@ -81,6 +81,13 @@ function App() {
           price="15k"
           button="order"
         />
+        <Cards
+          // img={}
+          name="sculpture2"
+          description="this is second sculpture"
+          price="15k"
+          button="order"
+        />
       </div>
       {/* footer section component*/}
       <Footer />
