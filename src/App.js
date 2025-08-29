@@ -8,8 +8,7 @@ import Footer from './components/Footer';
 import Cards from './components/Cards';
 // import nature from "./assests/abstract-nature-painted.jpg"
 
-function App() {
-  
+function App() { 
   return (
     <div className="App">
       <nav>
