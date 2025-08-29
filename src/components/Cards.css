@@ -4,6 +4,7 @@
     /* width: fit-content;
     height: 320px; */
     padding: 5px;
+    flex-basis: 20%;
     margin: 4px;
     position: relative;
 }
