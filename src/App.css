@@ -43,6 +43,7 @@ nav a{
 .painting{
   background-color: #f9fbfc;
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin: auto;
   justify-content: center;
@@ -53,6 +54,7 @@ nav a{
 .sculptures{
  background-color: #f9fbfc;
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   margin: auto;
   align-items: center;
