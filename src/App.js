@@ -39,6 +39,22 @@ function App() {
           button="order"
         />
       </div>
+      <div className="sculptures">
+        <Cards
+          // img={}
+          name="sculpture1"
+          description="this is a sculpture"
+          price="5k"
+          button="order"
+        />
+        <Cards
+          // img={}
+          name="sculpture2"
+          description="this is second sculpture"
+          price="15k"
+          button="order"
+        />
+      </div>
       {/* footer section component*/}
       <Footer />
     </div>
