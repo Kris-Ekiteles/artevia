@@ -37,6 +37,20 @@ function App() {
           price="50 k"
           button="order"
         />
+        <Cards
+          // img={nature}
+          name="painting"
+          description="this is the nature painting"
+          price="100 k"
+          button="order"
+        />
+        <Cards
+          // img={nature}
+          name="painting"
+          description="this is the nature painting"
+          price="100 k"
+          button="order"
+        />
       </div>
       <div className="sculptures">
         <Cards
@@ -44,6 +58,20 @@ function App() {
           name="sculpture1"
           description="this is a sculpture"
           price="5k"
+          button="order"
+        />
+        <Cards
+          // img={}
+          name="sculpture2"
+          description="this is second sculpture"
+          price="15k"
+          button="order"
+        />
+        <Cards
+          // img={}
+          name="sculpture2"
+          description="this is second sculpture"
+          price="15k"
           button="order"
         />
         <Cards
