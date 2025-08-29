@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -59,11 +59,24 @@ nav a{
  
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media(max-width:600px){
+  .painting {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+  .sculptures{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
   }
 }
