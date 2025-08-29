@@ -28,17 +28,22 @@
   color: #61dafb;
 }
 .painting{
-  background-color: blue;
+  background-color: #f9fbfc;
   display: flex;
+  width: 80%;
+  margin: auto;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 .sculptures{
-  width: 100%;
+ background-color: #f9fbfc;
   display: flex;
+  width: 80%;
+  margin: auto;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+ 
 }
 
 @keyframes App-logo-spin {
