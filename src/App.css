@@ -48,6 +48,7 @@ nav a{
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  gap: 10px;
 }
 .sculptures{
  background-color: #f9fbfc;
@@ -56,6 +57,7 @@ nav a{
   margin: auto;
   align-items: center;
   justify-content: center;
+  gap: 10px;
  
 }
 
