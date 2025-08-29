@@ -1,8 +1,18 @@
 import React from 'react'
 import "./Cards.css"
+import { useLocation } from 'react-router-dom';
 
 
 const Cards = (props) => {
+
+  
+  const location = useLocation();
+  const hideLoginPaths = ["/logIn/signUp", "/about"];
+
+  if (hideLoginPaths.includes(location.pathname)) {
+    return null;
+  }
+
   return (
     
     <div className="card">
