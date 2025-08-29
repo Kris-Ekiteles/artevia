@@ -1,13 +1,16 @@
 
 .card{
-    background-color: yellowgreen;
+    background-color: #e9eff2;
     width: fit-content;
     padding: 5px;
-    margin: 2px;
+    margin: 4px;
 }
 .card p{
     margin: 5px;
 
+}
+.card h3{
+    margin-bottom: 4px;
 }
 .card img{
     width: 190px;
@@ -17,5 +20,6 @@
 
 }
 .card button{
-    width: 70px;    
+    width: 70px;  
+
 }
