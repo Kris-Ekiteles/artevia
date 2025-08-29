@@ -24,12 +24,14 @@ const Footer = () => {
       </div>
       {/* will not be desplayed on screen sizes under 600px but like a ribon */}
       <div className="social-media">
+        <h4>follow us</h4>
         <FaFacebook />
         <FaWhatsapp />
         <FaTiktok />
         <FaInstagram />
       </div>
       <div className="shop">
+        <h4>browse</h4>
         <ul>
           <li>Collection</li>
           <li>New Arrivals</li>
