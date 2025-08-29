@@ -44,12 +44,14 @@ form label{
     align-content: center;
     width: 80px;
     cursor: pointer;
+    text-align: center;
     
 }
 .gray{
        background-color: transparent;
     color: #d4af37;
     border: 1px solid #d4af37;
+    text-align: center;
 }
 .forgot{
     margin-bottom: 10px;
