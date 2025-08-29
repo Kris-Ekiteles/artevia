@@ -23,3 +23,9 @@
     width: 70px;  
 
 }
+.card button:hover{
+    width: 70px;  
+background-color: transparent;
+ color: #d4af37;
+    border: 1px solid #d4af37;
+}
